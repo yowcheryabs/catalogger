@@ -1,0 +1,80 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Plus+Jakarta+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Plus Jakarta Sans', sans-serif;}
+  background-color: #ffffff;
+  color: #000;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin-right: 20px;
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+form.search {
+  margin-top: 15px;
+}
+
+.search input {
+  font-family: inherit;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.search button {
+  padding: 5px 10px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+main {
+  max-width: 700px;
+}
+
+.post {
+  margin-top: 40px;
+}
+
+.post .caption {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.post img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.timestamp {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: gray;
+}
